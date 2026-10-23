@@ -87,11 +87,11 @@ console.log("Average: " + average)
 //         Print: console.log("Even count: " + count)
 let count = 0
 for (let i=0; i<numbers.length; i++){
-    if (numbers[i] % 2 ===0){
+    if (numbers[i] % 2 === 0){
         count += 1
     } 
 }
-console.log("Even: "  + count)
+console.log("Even count: "  + count)
 
 // STEP 9: Find the largest number.
 //         Start with the first number as the largest.
